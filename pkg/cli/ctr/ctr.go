@@ -1,8 +1,8 @@
 package ctr
 
 import (
-	"github.com/rancher/k3s/pkg/ctr"
-	"github.com/urfave/cli"
+	"github.com/k3s-io/k3s/pkg/ctr"
+	"github.com/urfave/cli/v2"
 )
 
 func Run(ctx *cli.Context) error {
